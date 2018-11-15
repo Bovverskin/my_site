@@ -1,80 +1,9 @@
 $font-stack: 'Open Sans', sans-serif, 
-$main-color: red
+$main-color: grey
 
 body
   font: $font-stack
   color: $main-color
 
-  
 .wrapper
   display: grid
-  grid-template-columns: 100px auto 60px
-  grid-template-rows: 80px auto 50px
-  min-height: 100vh
-
-  .header
-    background-color: red
-    grid-column: 1
-    grid-row: 1
-
-  .sidebar-left
-    background-color: yellow
-    grid-column: 1
-    grid-row: 2
-
-  .sidebar-right
-    background-color: blue
-    grid-column: 1
-    grid-row: 4
-
-  .main
-    background-color: orange
-    grid-column: 1
-    grid-row: 3
-
-  .footer
-    background-color: purple
-    grid-column: 1
-    grid-row: 5
-    
-  
-  @media screen and (min-width: 1240px)
-    .wrapper
-      display: grid
-      grid-template-columns: 100px auto 60px
-      grid-template-rows: 80px auto 50px
-      min-height: 100vh
-
-    .header
-      background-color: green
-      grid-column-start: 1
-      grid-column-end: 4
-      grid-row: 1
-
-    .sidebar-left
-      background-color: yellow
-      grid-column-start: 1
-      grid-column-end: 2
-      grid-row: 2
-
-    .sidebar-right
-      background-color: blue
-      grid-column-start: 3
-      grid-column-end: 4
-      grid-row: 2
-
-    .main
-      background-color: orange
-      grid-column-start: 2
-      grid-column-end: 3 
-      grid-row: 2
-
-    .footer
-      background-color: purple
-      grid-column-start: 1
-      grid-column-end: 4
-      grid-row-start: 3
-      grid-row: 4
-      
-  
-  
