@@ -1,8 +1,15 @@
-.wrapper
-    .background
-    
+.header
+    %h1.conan-text{"data-splitting" => ""} 
+    %a{href: '/index.html'} Home
+    %a{href: '/bio.html'} Bio
+    %a{href: '/work_history.html'} Work History
+
+    .main
+
+    .exp
         = partial 'partials/projects'
-   
-    
+        = partial 'partials/bio'
+        = partial 'partials/education'
 
-
+    .footer
+        %a{href: 'contact.html'}
