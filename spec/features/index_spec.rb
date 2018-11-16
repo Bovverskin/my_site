@@ -8,21 +8,5 @@ describe 'Index Page', type: :feature do
             expect(page).to have_content 'My First Website'
             expect(page).to have_content 'FizzBuzz'
         end
-
-        expect(page).to have_css '.bio'
-
-        within '.bio' do
-            expect(page).to have_content 'American'
-            expect(page).to have_content '06/02/1977'
-            expect(page).to have_content 'Music, Record collection, Video Games, Technology'
-        end
-
-        expect(page).to have_css '.education'
-
-        within '.education' do
-            expect(page).to have_content 'Home School'
-            expect(page).to have_content 'Faith Christian High School, Williams High School'
-            expect(page).to have_content 'Craft Academy'
-        end
     end
 end
