@@ -1,0 +1,16 @@
+%form.flex.flex-no-wrap.items-stretch.float-center.bg-grey.h-48{method: "POST", name: "contact", netlify: ""}
+  %p
+    %label.flex.items-center
+      Your Name:
+      %input{name: "name", type: "text"}/
+  %p
+    %label.flex.items-center
+      Your Email:
+      %input{name: "email", type: "email"}/
+  
+  %p
+    %label
+      Message:
+      %textarea{name: "message"}
+  %p
+    %button{type: "submit"} Send
