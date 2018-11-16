@@ -1,5 +1,5 @@
-describe 'Index Page', type: :feature do
-    it 'displays project list' do
+describe 'Education Page', type: :feature do
+    it 'displays education list' do
         visit 'education.html'
 
         expect(page).to have_css '.education'
