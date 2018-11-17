@@ -1,5 +1,5 @@
 describe 'Index Page', type: :feature do
-    it 'displays project list' do
+    it 'displays home page' do
         visit '/'
 
     end
