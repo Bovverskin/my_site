@@ -1,6 +1,6 @@
-describe 'CV Page', type: :feature do
+describe 'My CV', type: :feature do
     it 'displays my cv download' do
-        visit 'my_cv.html'
+        visit 'cv.html'
 
         expect(page).to have_css '.my_cv'
 

@@ -1,4 +1,4 @@
 .about_me
-    - data.about_me.each do |about_me|
-        %p= about_me[:about_me]
-        %p= about_me[:content]
+    -data.about_me.each do |about_me|
+        %h4= about_me[:my_bio]
+        %p= about_me[:my_story]
