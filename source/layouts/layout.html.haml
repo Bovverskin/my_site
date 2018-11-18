@@ -11,7 +11,8 @@
     %link{href: "wind.svg", rel: "shortcut icon", type: "image/x-icon"}/
     = stylesheet_link_tag "site"
     = javascript_include_tag "site"
-  %body{bgcolor: "#B2C9B1"}
+  %body
+  .bg{style: "background: url(./images/color_fade.jpg) no-repeat"}
     = partial 'partials/header'
     = partial 'partials/main'
     = partial 'partials/sidebarright'
