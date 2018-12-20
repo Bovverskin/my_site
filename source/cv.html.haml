@@ -1,7 +1,5 @@
 .my_cv
     -data.my_cv.each do |my_cv|
-        %h4= my_cv[:download]
-        /%p= my_cv[:high_school]
-        /%p= my_cv[:coding]     
+        %h4= my_cv[:download]    
 %a{download: "my_cv.docx", href: "./images/my_cv.docx"}
     Download Jon's CV
