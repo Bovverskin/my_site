@@ -1,4 +1,10 @@
-.projects
-    - data.projects.each do |my_projects|
-        %h4= my_projects[:name]
-        %p= my_projects[:description]
+.project
+    .header
+        %h1.conan-text{"data-splitting" => ""} Projects
+     
+        
+    .main
+        
+        
+        = partial 'partials/projects'
+    .footer

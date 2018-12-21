@@ -5,8 +5,9 @@ describe 'About Me Page', type: :feature do
         expect(page).to have_css '.about_me'
 
         within '.about_me' do
-            expect(page).to have_content 'Yo'
-            expect(page).to have_content 'Story'
+            expect(page).to have_content 'American'
+            expect(page).to have_content '06/02/1977'
+            expect(page).to have_content 'Music, Video games, Football, Problem solving'
         end
     end
 end

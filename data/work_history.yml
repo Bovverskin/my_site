@@ -1,5 +1,4 @@
-- job: Wirstroms Pub
-  title: Bartender
-
-- job: Idle Hour
-  title: Bartenter
+- name: Wirstroms Pub
+  position: Bartender
+  location: Stockholm
+  years: 3
