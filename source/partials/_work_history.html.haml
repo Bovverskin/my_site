@@ -1,8 +1,6 @@
 .work_history
-    -data.work_history.each do |work_history|
-        %p= history[:Name]
-        %br
-        %p= history[:Position]
-        %p= history[:Location]
-        %p= history[:Years]
-        %br
+    - data.work_history.each do |work_history|
+        %h2= work_history[:name]
+        %p= work_history[:position]
+        %p= work_history[:location]
+        %p= work_history[:years]
