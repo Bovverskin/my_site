@@ -1,5 +1,7 @@
 - name: My First Website
   description: Simple HTML5 site I've built during the PrepCourse
+  language: HTML5
 
 - name: FizzBuzz
   description: My first test driven ruby project
+  language: Ruby
