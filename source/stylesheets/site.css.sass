@@ -24,7 +24,7 @@ body
   height: 100vh
   overflow-x: hidden
   overflow-y: auto
-  perspective: 2px
+  perspective: 1px
 
 
 .background
@@ -78,13 +78,14 @@ body
   z-index: -1
 
 
-.static 
-  background-image: url('/images/color_fade.jpg')
-
-
 .bg1::after 
   background-image: url('/images/jon-charlie.jpg')
 
-
 .bg2::after 
   background-image: url('/images/my_pic.jpg')
+
+.bg3::after 
+  background-image: url('/images/color_fade.jpg')
+
+.static
+  background: red
