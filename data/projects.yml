@@ -1,7 +1,39 @@
 - name: My First Website
   description: Simple HTML5 site I've built during the PrepCourse
-  language: HTML5
+  language: Language- HTML5
+  link: Bovverskin.github.io
 
 - name: FizzBuzz
   description: My first test driven ruby project
-  language: Ruby
+  language: Language- Ruby
+  link: https://github.com/Bovverskin/fizz_buzz
+
+- name: BMI Challenge
+  description:
+  language:
+  link:
+
+- name:
+  description:
+  language:
+  link:
+
+- name:
+  description:
+  language:
+  link:
+
+- name:
+  description:
+  language:
+  link:
+
+- name:
+  description:
+  language:
+  link:
+
+- name:
+  description:
+  language:
+  link:
