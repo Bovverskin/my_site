@@ -6,3 +6,23 @@
     %a{href: "mailto:jon1969edwards@gmail.com"} Gmail
     %a{href: "https://twitter.com/BovverSkin"} Twitter
     %a{href: "https://github.com/Bovverskin"} GitHub
+
+.mainform
+  %form.contactform.bg-green-darker.shadow-md.rounded.px-8.pt-6.pb-8.mb-4(name="contact" method="POST" netlify)
+    #displayed{:onclick => "openForm()"}
+      %h2 Contact Me!
+    #hidden
+      %p
+        %label(for="name") Your Name:
+        %input#username.shadow.appearance-none.border.rounded.w-full.py-2.px-3.text-grey-darker.leading-tight.focus(type="text" name="name" placeholder="John Smith" required)/
+      %p
+        %label(for="company") Your Company Name:
+        %input#company.shadow.appearance-none.border.rounded.w-full.py-2.px-3.text-grey-darker.leading-tight.focus(type="text" name="name" placeholder="Come work for us here!" required)/
+      %p
+        %label(for="email") Your Email:
+        %input#email.shadow.appearance-none.border.rounded.w-full.py-2.px-3.text-grey-darker.leading-tight.focus(type="email" name="name" placeholder="johnsmith@email.com" required)/
+      %p
+        %label(for="message") Your Message:
+        %textarea#textarea.shadow.appearance-none.border.rounded.w-full.py-2.px-3.text-grey-darker.leading-tight.focus(type="text" name="message" rows="4" placeholder="Your message" required)
+      %p
+        %button.bg-green.hover:bg-green-dark.text-white.font-bold.py-2.px-4.rounded.focus(type="submit") Submit
