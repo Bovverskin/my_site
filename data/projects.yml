@@ -23,10 +23,10 @@
   language: Ruby
   link: https://github.com/Bovverskin/atm_challenge_master
 
-- name:
-  description:
-  language:
-  link:
+- name: Portfolio Project
+  description: A website portfolio that inculdes my coding portfolio, a bio about myself and away to contact me. We use Middleman, Haml and SASS to style the site.
+  language: Haml, Javascript
+  link: https://github.com/Bovverskin/my_site
 
 - name:
   description:
