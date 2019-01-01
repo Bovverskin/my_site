@@ -145,7 +145,6 @@ GEM
     thor (0.20.3)
     thread_safe (0.3.6)
     tilt (2.0.8)
-    twilio-ruby (5.18.0)
       faraday (~> 0.9)
       jwt (>= 1.5, <= 2.5)
       nokogiri (>= 1.6, < 2.0)
@@ -168,7 +167,6 @@ DEPENDENCIES
   pry
   pry-byebug
   rspec
-  twilio-ruby
   tzinfo-data
   wdm (~> 0.1)
 
