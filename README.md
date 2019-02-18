@@ -22,5 +22,5 @@ About Me:
 	In the same way, technology opened up a world that I felt compelled to understand.  I remember my father sitting at his Commodore 64 for hours typing in code.  I had no idea what he was doing at the time but it sparked a curiosity that exists in me to this day.  Wanting to understand and manipulate technology has been a nagging hobby, passion and obsession since I first played “Oregon Trail”.  
 	While I never took coding seriously until later in life, it is still as exciting to me as the first time I heard the lines “London calling, to the faraway towns”.
 
-Github: https://github.com/Bovverskin/my_site
+Github: https://github.com/Jon1969Edwards/my_site
 Website: https://jonsporfolio.netlify.com/
