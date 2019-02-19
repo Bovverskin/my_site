@@ -1,4 +1,9 @@
 .about_me
-    - data.about_me.each do |about_me|
-        %p= about_me[:about_me]
-        %p= about_me[:content]
+    .header
+        %h1.conan-text.text-center{"data-splitting" => ""} About me
+       
+        
+    .main
+
+    .exp
+        = partial 'partials/about_me'

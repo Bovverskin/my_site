@@ -1,5 +1,39 @@
 - name: My First Website
   description: Simple HTML5 site I've built during the PrepCourse
+  language: Language- HTML5
+  link: Bovverskin.github.io
 
 - name: FizzBuzz
-  description: My first test driven ruby project
+  description: Fizz buzz is a group word game for children to teach them about division. Players take turns to count incrementally, replacing any number divisible by three with the word "fizz", and any number divisible by five with the word "buzz", and numbers divisible by both become fizz buzz.
+  language: Language- Ruby
+  link: https://github.com/Bovverskin/fizz_buzz
+
+- name: BMI Challenge
+  description: A BMI program, that lets the user input their height and weight and calculates their bmi in the metric and imperial methods.
+  language: Language- Javascript
+  link: https://github.com/Bovverskin/BMI_Challenge
+
+- name: Library Challenge
+  description: This was the first weekend challenge we got in the bootcamp. It was a pair programming challenge about making a functional program in Ruby, where the user had to be able to look at a book list check out books and place in their private bookshelf.
+  language: Ruby
+  link: https://github.com/Bovverskin/library-challenge
+
+- name: ATM Challenge
+  description: An atm Ruby challenge. A pair programming challenge, we had to create an atm programme, where the user as to be able to check their account, be able to check balance, deposit and withdraw money.
+  language: Ruby
+  link: https://github.com/Bovverskin/atm_challenge_master
+
+- name: Portfolio Project
+  description: A website portfolio that inculdes my coding portfolio, a bio about myself and away to contact me. We use Middleman, Haml and SASS to style the site.
+  language: Haml, Javascript
+  link: https://github.com/Bovverskin/my_site
+
+- name:
+  description:
+  language:
+  link:
+
+- name:
+  description:
+  language:
+  link:

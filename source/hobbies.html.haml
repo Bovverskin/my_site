@@ -1,6 +1,9 @@
 .hobbies
-    - data.hobbies.each do |my_hobbies|
-        %p= my_hobbies[:music]
-        %p= my_hobbies[:record_collecting]
-        %p= my_hobbies[:video_games]
-        %p= my_hobbies[:technology]
+    .header
+        %h1.conan-text.text-center{"data-splitting" => ""} Hobbies
+       
+        
+    .main
+
+    .exp
+        = partial 'partials/hobbies'

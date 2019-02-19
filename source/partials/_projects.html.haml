@@ -1,0 +1,7 @@
+.projects
+    - data.projects.each do |my_projects|
+        %h4= my_projects[:name]
+        %p= my_projects[:description]
+        %p= my_projects[:language]
+        %h3= my_projects[:link]
+        %br
